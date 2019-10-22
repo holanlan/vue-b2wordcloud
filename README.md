@@ -2,6 +2,8 @@
 
 基于[b2wordcloud](https://github.com/holanlan/vue-b2wordcloud)进行封装的vue词云图组件
 
+线上例子见：[DEMO](https://holanlan.github.io/vue-b2wordcloud/)
+
 ## Installtion
 - 通过script引入
 ```
