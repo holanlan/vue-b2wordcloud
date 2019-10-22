@@ -23,6 +23,7 @@ npm install vue-b2wordcloud --save
 ```javascript
 import Vue from 'vue'
 import VueWordcloud from 'vue-b2wordcloud'
+Vue.use(VueWordcloud)
 ```
 
 例子：
