@@ -1,0 +1,35 @@
+{
+  "name": "vue-b2wordcloud",
+  "version": "1.0.0",
+  "description": "基于b2wordcloud的vue词云渲染插件",
+  "main": "dist/vue-b2wordcloud.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env webpack --mode development --watch --color",
+    "build": "cross-env webpack --mode production --color"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "wordcloud"
+  ],
+  "author": "holan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "b2wordcloud": "^1.0.6",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "element-resize-detector": "^1.1.15",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
