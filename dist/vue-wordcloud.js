@@ -596,11 +596,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! exports provided: install, default */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"install\", function() { return install; });\n/* harmony import */ var _components_index_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/index.vue */ \"./src/components/index.vue\");\n\nfunction install(Vue) {\n  Vue.component('VueWordcloud', _components_index_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n}\nvar plugin = {\n  install: install\n};\n\nif (typeof window !== 'undefined' && window.Vue) {\n  window.Vue.use(plugin);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (plugin);\n\n//# sourceURL=webpack://VueWordcloud/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_index_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/index.vue */ \"./src/components/index.vue\");\n\n\nfunction install(Vue) {\n  Vue.component('VueWordcloud', _components_index_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n}\n\nvar plugin = {\n  install: install\n};\n\nif (typeof window !== 'undefined' && window.Vue) {\n  window.Vue.use(plugin);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (plugin);\n\n//# sourceURL=webpack://VueWordcloud/./src/index.js?");
 
 /***/ })
 

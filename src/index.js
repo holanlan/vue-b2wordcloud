@@ -1,5 +1,5 @@
 import VueWordcloud from './components/index.vue'
-export function install(Vue) {
+function install(Vue) {
     Vue.component('VueWordcloud', VueWordcloud)
 }
 
