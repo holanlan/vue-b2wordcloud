@@ -18,23 +18,27 @@ npm install vue-b2wordcloud --save
 ```
 
 ## Usage
+
+添加插件到你的`main.js`文件
+```javascript
+import Vue from 'vue'
+import VueWordcloud from 'vue-b2wordcloud'
 ```
 
+例子：
+```html
+
 <template>
-<div id="app">
-    <vue-wordcloud 
-        class="chart" 
-        :options="options" 
-        :loading="loading" />
-</div>
+    <div id="app">
+        <vue-wordcloud 
+            style="width: 500px;height: 500px;"
+            :options="options" 
+            :loading="loading" />
+    </div>
 </template>
 
 <script>
-import VueWordcloud from 'vue-b2wordcloud'
 export default {
-    components: {
-        VueWordcloud
-    },
     data: function() {
         return { 
             loading: true,
@@ -49,9 +53,8 @@ export default {
         }
     },
     mounted() {
-        var _this = this
-        setTimeout(function() {
-            _this.loading = false
+        setTimeout(() => {
+            this.loading = false
         }, 2000)
     }
 }
