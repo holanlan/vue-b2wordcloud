@@ -2,7 +2,7 @@
   "name": "vue-b2wordcloud",
   "version": "1.0.0",
   "description": "基于b2wordcloud的vue词云渲染插件",
-  "main": "dist/vue-b2wordcloud.js",
+  "main": "dist/vue-wordcloud.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env webpack --mode development --watch --color",
