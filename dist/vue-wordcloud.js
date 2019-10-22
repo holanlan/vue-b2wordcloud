@@ -437,17 +437,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./node_modules/_webpack@4.41.2@webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("function _typeof(obj) { if (typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; }; } return _typeof(obj); }\n\nvar g; // This works in non-strict mode\n\ng = function () {\n  return this;\n}();\n\ntry {\n  // This works if eval is allowed (see CSP)\n  g = g || new Function(\"return this\")();\n} catch (e) {\n  // This works if the window reference is available\n  if ((typeof window === \"undefined\" ? \"undefined\" : _typeof(window)) === \"object\") g = window;\n} // g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\n\nmodule.exports = g;\n\n//# sourceURL=webpack://VueWordcloud/(webpack)/buildin/global.js?");
-
-/***/ }),
-
 /***/ "./node_modules/_webpack@4.41.2@webpack/buildin/module.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/module.js ***!
@@ -611,7 +600,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"install\", function() { return install; });\n/* harmony import */ var _components_index_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/index.vue */ \"./src/components/index.vue\");\n\nfunction install(Vue) {\n  Vue.component('VueWordcloud', _components_index_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n}\nvar plugin = {\n  install: install\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (plugin);\nvar GVue = null;\n\nif (typeof window !== 'undefined') {\n  GVue = window.Vue;\n} else if (typeof global !== 'undefined') {\n  GVue = global.Vue;\n}\n\nif (GVue) {\n  GVue.use(plugin);\n}\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/_webpack@4.41.2@webpack/buildin/global.js */ \"./node_modules/_webpack@4.41.2@webpack/buildin/global.js\")))\n\n//# sourceURL=webpack://VueWordcloud/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"install\", function() { return install; });\n/* harmony import */ var _components_index_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/index.vue */ \"./src/components/index.vue\");\n\nfunction install(Vue) {\n  Vue.component('VueWordcloud', _components_index_vue__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n}\nvar plugin = {\n  install: install\n};\n\nif (typeof window !== 'undefined' && window.Vue) {\n  window.Vue.use(plugin);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (plugin);\n\n//# sourceURL=webpack://VueWordcloud/./src/index.js?");
 
 /***/ })
 

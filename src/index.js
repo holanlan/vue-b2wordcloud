@@ -7,15 +7,8 @@ const plugin = {
     install
 }
 
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(plugin)
+}
+
 export default plugin
-
-let GVue = null
-if (typeof window !== 'undefined') {
-    GVue = window.Vue
-} else if (typeof global !== 'undefined') {
-    GVue = global.Vue
-}
-
-if (GVue) {
-    GVue.use(plugin)
-}
