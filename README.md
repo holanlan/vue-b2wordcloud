@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/vue-b2wordcloud.png)](https://nodei.co/npm/vue-b2wordcloud/)
 
-基于[b2wordcloud](https://github.com/holanlan/vue-b2wordcloud)进行封装的vue词云图组件
+基于[b2wordcloud](https://github.com/holanlan/b2wordcloud)进行封装的vue词云图组件
 
 线上例子见：[DEMO](https://holanlan.github.io/vue-b2wordcloud/)
 
@@ -64,7 +64,7 @@ export default {
 
 ## API documentation
 
-- `options`：词云图配置项，详细见：[b2wordcloud](https://github.com/holanlan/vue-b2wordcloud) options配置
+- `options`：词云图配置项，详细见：[b2wordcloud options配置](https://github.com/holanlan/b2wordcloud)
 - `loading`：显示加载状态
 
 ## Resize
