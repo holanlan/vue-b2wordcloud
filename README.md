@@ -70,3 +70,4 @@ export default {
 ## Resize
 
 组件内置监听DOM resize（基于[element-resize-detector](https://github.com/wnr/element-resize-detector)）调用词云图重绘方法，
+
